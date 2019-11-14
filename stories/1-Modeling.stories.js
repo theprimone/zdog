@@ -2,6 +2,7 @@ import React from 'react';
 import ChildShapesIntro from '../src/Modeling/ChildShapesIntro';
 import ChildShapesRelative from '../src/Modeling/ChildShapesRelative';
 import ChildShapesTransforms from '../src/Modeling/ChildShapesTransforms';
+import Anchors from '../src/Modeling/Anchors';
 
 // ref: https://zzz.dog/modeling
 export default {
@@ -25,3 +26,5 @@ export const childShapesTransforms = () => <ChildShapesTransforms />;
 childShapesTransforms.story = {
   name: 'Child shapes transforms',
 };
+
+export const anchors = () => <Anchors />;
