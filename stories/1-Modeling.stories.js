@@ -3,6 +3,7 @@ import ChildShapesIntro from '../src/Modeling/ChildShapesIntro';
 import ChildShapesRelative from '../src/Modeling/ChildShapesRelative';
 import ChildShapesTransforms from '../src/Modeling/ChildShapesTransforms';
 import Anchors from '../src/Modeling/Anchors';
+import Copying from '../src/Modeling/Copying';
 
 // ref: https://zzz.dog/modeling
 export default {
@@ -28,3 +29,5 @@ childShapesTransforms.story = {
 };
 
 export const anchors = () => <Anchors />;
+
+export const copying = () => <Copying />;
