@@ -1,11 +1,7 @@
 import Zdog from 'zdog';
 
-const yellow = '#ED0';
 const gold = '#EA0';
-const orange = '#E62';
-const garnet = '#C25';
 const eggplant = '#636';
-const TAU = Zdog.TAU;
 
 export function render() {
 
