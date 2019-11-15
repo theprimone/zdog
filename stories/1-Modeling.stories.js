@@ -4,6 +4,7 @@ import ChildShapesRelative from '../src/Modeling/ChildShapesRelative';
 import ChildShapesTransforms from '../src/Modeling/ChildShapesTransforms';
 import Anchors from '../src/Modeling/Anchors';
 import Copying from '../src/Modeling/Copying';
+import StrokeVolume from '../src/Modeling/StrokeVolume';
 
 // ref: https://zzz.dog/modeling
 export default {
@@ -31,3 +32,9 @@ childShapesTransforms.story = {
 export const anchors = () => <Anchors />;
 
 export const copying = () => <Copying />;
+
+export const strokeVolume = () => <StrokeVolume />;
+
+strokeVolume.story = {
+  name: 'Stroke Volume',
+}
